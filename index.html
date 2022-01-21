@@ -15,9 +15,9 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="shadow fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
+    <header class="shadow">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">
+            <div class="container fixed-top">
               <a class="navbar-brand fw-bold fs-2" href="#">Bootstrap</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,10 +25,10 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto fw-bold">
                   <li class="nav-item me-4">
-                    <a class="nav-link active" aria-current="page" href="#">Features</a>
+                    <a class="nav-link" aria-current="page" href="#features">Features</a>
                   </li>
                   <li class="nav-item me-4">
-                    <a class="nav-link" href="#">Download</a>
+                    <a class="nav-link" href="#download">Download</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link btn btn-primary rounded-pill text-white px-4 fw-bold gradient-color" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
@@ -40,12 +40,9 @@
               </div>
             </div>
           </nav>
-    </header>
-    
-    <!-- Main  -->
-    <main>
-        <!-- banner  -->
-        <section class="banner h-100 pt-4">
+
+           <!-- banner  -->
+        <section class="banner pt-4">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-12 order-sm-2 order-2 order-md-1">
@@ -72,6 +69,11 @@
             </div>
         </section>
 
+    </header>
+    
+    <!-- Main  -->
+    <main>
+       
         <!-- twn section -->
         <section class="gradient-color my-5">
             <div class="container">
@@ -83,7 +85,7 @@
         </section>
 
         <!-- feature section  -->
-        <section id="feature my-3">
+        <section id="features" class="my-3">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-md-12">
@@ -161,22 +163,38 @@
 
         <!-- building section  -->
         <section class="stop-writing">
-            <div class="container">
-               <div class="row">
+            <div class="container h-100">
+               <div class="row h-100">
                 <div class="col-lg-6 col-md-12">
-                    <div>
-                        <h1 class="display-2 fw-bold text-white mb-4">Stop waiting. Start building.</h1>
+                    <div class="d-flex flex-column justify-content-center align-items-start h-100">
+                        <h1 class="display-2 fw-bold text-white">Stop waiting. Start building.</h1>
+                        <a href="#download" class="btn btn-outline-light rounded-pill text-white py-3 px-4 ">Download for free</a>
                     </div>
                 </div>
                </div>
             </div>
         </section>
 
+        <!-- download section  -->
+        <section id="download" class=" py-5 gradient-color">
+            <div class="d-flex py-5 flex-column justify-content-center align-items-center">
+                <h1 class="text-center text-white">Get the app now!</h1>
+                <div class="my-2">
+                    <a href="">
+                        <img  height="50" class="me-2" src="./images/app-store-badge.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img height="50" src="./images/app-store.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- Footer  -->
-    <footer>
-
+    <footer  class="bg-dark py-4 text-center">
+        <small class="text-white">&copy; Your Website 2021. All Rights Reserved.</small>
     </footer>
 
 

@@ -12,8 +12,14 @@ body{
 .color-2{
     color: #9f1ae2;
 }
+.navigation{
+    height: 80px;
+}
+.banner{
+    min-height: calc(100vh-80px);
+}
 .stop-writing{
-    background-image: url('images/background.png');
+    background-image: url('../images/background.png');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
