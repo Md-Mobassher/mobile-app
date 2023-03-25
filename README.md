@@ -1,4 +1,4 @@
-## Project Name: mobile-app
+## Project Name: mobile-app-bootstrap
 
 
 ## Live side Link: https://mobile-app-mobassher.netlify.app
